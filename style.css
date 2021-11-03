@@ -1,0 +1,232 @@
+.nav-list{
+    border: 1px solid #ccc;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.nav-img{
+    width: 50px;
+}
+
+.nav-link-img{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.nav-link-menu{
+    color: #2c2c2c;
+    opacity: 0.8;
+    font-weight: 450;
+}
+.nav-link-menu:hover{
+    opacity: 1;
+    color: #2c2c2c;
+}
+.nav-form-span{
+    color: #fff;
+    opacity: 0.6;
+    margin-right: 20px;
+}
+.nav-form-span:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.nav-item-icon{
+    color: #fff;
+    opacity: 0.6;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.nav-item-icon:hover{
+    opacity: 0.8;
+}
+.nav-inf{
+    padding: 0 0;
+}
+.nav-link{
+    padding: 4px 0;
+}
+.nav-size{
+    font-size: 0.8rem;
+}
+.nav-item-icon-phone{
+    padding-top: 5px;
+}
+.nav-btn-user{
+    margin-left: 5px;
+    margin-right: 15px;
+    padding: 2px 6px;
+    
+    
+}
+.nav-btn-cart{
+    margin-left: 35px;
+    padding: 2px 6px;
+}
+
+ .form-input-search{
+     width: 350px;
+     border-radius: 10px;
+ }
+ .nav-btn-search{
+     padding: 1px 20px;
+ }
+ /* sider */
+ .sider{
+    position: relative;
+   
+    padding-top: 50%;
+    background: url('https://trivietdecor.com.vn/uploads/thiet-ke-shop-thoi-trang-dep-tphcm-14_1568281536.jpg') top center  / cover no-repeat;
+ }
+ .side-header{
+    position: absolute;
+    top: 200px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+ }
+ .btn-saleoff{
+    position: absolute;
+    top: 330px;
+    margin-left: 430px;
+    background-color: #ce4621;
+    
+ }
+ .text-saleoff{
+     position: absolute;
+    top: 360px;
+    margin-left: 550px;
+    /* color: #ff0000; */
+    color: #ce4621;
+    font-size: 8rem;
+    font-style: italic;
+ }
+ .btn-sendoff{
+    position: absolute;
+    top: 540px;
+    margin-left: 550px;
+    background-color: #ce4621;
+    width: 200px;
+    border-radius: 20px;
+    opacity: 0.8;
+ }
+ .btn-sendoff:hover{
+     opacity: 1;
+ }
+ /* Product */
+ .product-header{
+     padding: 30px 0;
+     font-style: italic;
+ }
+ .card-product-title{
+     position: absolute;
+     bottom: 10px;
+ }
+ .card-btn-product{
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+
+ }
+ .card-title-header{
+     font-style: italic;
+ }
+ .product-btn-cart{
+    margin-left: 35px;
+    padding: 10px 20px;
+   
+    
+ }
+.icon-cart{
+    color:#fff;
+    font-size: 1.8rem;
+    font-style: italic;
+    opacity: 0.8;
+}
+.icon-cart:hover{
+    opacity: 1;
+}
+/* advertisement */
+.product-header-advertisement{
+    padding-bottom: 0;
+}
+.img-advertisement{
+    width: 100%;
+    max-height: 400px;
+}
+/* why */
+.img-so-why{
+    width: 50px;
+    height: 50px;
+}
+.whyproduct-text{
+    margin-left: 20px;
+}
+/* product hot */
+.product-hot{
+    position: relative;
+    padding: 20px 0;
+}
+.img-hot{
+    
+    width: 70px;
+    
+}
+/* --- */
+.text-header-km{
+    margin: 30px 0;
+}
+/* footer */
+.footer{
+    background-color: #000;
+    margin-top: 30px;
+}
+.footer-text{
+    margin-top: 20px;
+    color: #fff;
+    opacity: 0.5;
+}
+.footer-text:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.icon-footer{
+    margin: 0 5px;
+    color: #fff;
+    opacity: 0.5;
+    
+}
+.icon-footer:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* reponsive */
+@media (max-width:1023px){
+    .side-header{
+        top: 50px;
+    }
+    .side-header-text{
+        font-size: 0.5rem;
+    }
+    .btn-saleoff{
+        top: 120px;
+        margin-left: 120px;
+        width: 50px;
+        font-size: 0.3rem;
+    }
+    .text-saleoff{
+        top: 130px;
+    margin-left: 170px;
+    
+    font-size: 2rem;
+    }
+    .btn-sendoff{
+        top: 170px;
+    margin-left: 150px;
+    font-size: 0.5rem;
+    width: 100px;
+    }
+    .whyproduct{
+        display: none;
+    }
+}
